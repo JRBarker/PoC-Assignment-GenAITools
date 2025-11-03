@@ -1,5 +1,18 @@
 # PoC-Assignment-GenAITools
 
+How to run:
+
+- Install Python (Created using Python 3.13.3, but other similar version should also work)
+- Clone this repo
+- Open a terminal in this project's directory
+- Run `pip install -r requirements.txt`
+- Create `.soonerai.env` in the repo's directory
+- Add your API key to `.soonerai.env` (API keys can be created at https://ai.sooners.us) and SAVE
+- Run `cifar10_classify.py`
+
+For this example trial featuring different prompts, each prompt was run once. The 'silly'
+prompt warning of nuclear obliteration appeared to perform better than the default prompt, but without multiple runs it's difficult to say that this is significant. Multiple runs with different seeds must be done to establish if this prompt does anything or if this variance is due to noise.
+
 <details>
 
 <summary>Classification with default prompt</summary>
